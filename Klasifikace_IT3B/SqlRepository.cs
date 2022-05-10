@@ -8,14 +8,7 @@ namespace Klasifikace_IT3B
 {
     public class SqlRepository
     {
-        private string connString = @"Data Source=(localdb)\MSSQLLocalDB;
-                                      Initial Catalog=Klasifikace;
-                                      Integrated Security=True;
-                                      Connect Timeout=30;
-                                      Encrypt=False;
-                                      TrustServerCertificate=False;
-                                      ApplicationIntent=ReadWrite;
-                                      MultiSubnetFailover=False";
+        private string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\greplova.anna\Desktop\Klasifikace_IT3B\Db\Klasifikace.mdf;Integrated Security=True;Connect Timeout=30";
         private Dictionary<int, Teacher> teachers;
         private Dictionary<int, Subject> subjects;
 

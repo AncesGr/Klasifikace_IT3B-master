@@ -38,5 +38,12 @@ namespace Klasifikace_IT3B
                 lvData.Items.Add(listViewItem);
             }
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            frmStudent frmStudent = new frmStudent();
+            frmStudent.StartPosition = FormStartPosition.CenterParent;
+            frmStudent.ShowDialog();
+        }
     }
 }
